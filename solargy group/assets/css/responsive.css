@@ -1308,7 +1308,7 @@
     margin-bottom: 70px !important;
   }
   #contact-us .row {
-    flex-direction: column-reverse;
+    /* flex-direction: column;  */
   }
   .page-header h2 {
     font-size: 38px;
