@@ -11768,7 +11768,9 @@ figure{
 .footer-style-two .gallery-widget .image-list li .image:hover img{
     opacity: 0.2;
 }
-
+footer a.text-secondary:focus,footer a.text-secondary:hover{
+    color: #fff !important;
+}
 
 /*** 
 
