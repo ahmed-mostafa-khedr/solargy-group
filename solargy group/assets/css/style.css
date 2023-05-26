@@ -7183,8 +7183,8 @@ height: 250px;
 --------------------------------------------------------------*/
 
 .about-one {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .about-one__image {
@@ -10948,7 +10948,7 @@ figure{
 
 .case-section{
     position: relative;
-    padding: 120px 0px 120px 0px;
+    padding: 60px 0px 60px 0px;
 }
 
 .case-section .owl-carousel .owl-dots{
@@ -11066,7 +11066,7 @@ figure{
 
 .process-style-two{
     position: relative;
-    padding: 0px 0px 180px 0px;
+    padding: 0px 0px 60px 0px;
 }
 
 .process-style-two .block-title{

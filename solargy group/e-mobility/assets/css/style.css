@@ -1091,7 +1091,7 @@ select {
   position: relative;
   z-index: 100;
 }
-.color-heading::after {
+/* .color-heading::after {
   content: "";
   left: -8px;
   top: -8px;
@@ -1104,7 +1104,7 @@ select {
   border: 1 solid #397abd;
   background-color: #397abd;
   z-index: -1;
-}
+} */
 
 .color-body {
   color: #9b9b9b !important;
@@ -1243,15 +1243,18 @@ h6 {
 
 .heading__subtitle {
   font-family: "Cairo", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: #397abd;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
   margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+  width: 10%;
+  padding-bottom: 6px;
 }
 
 .heading__title {
   position: relative;
-  font-size: 34px;
+  font-size: 33px;
   margin-bottom: 20px;
 }
 
@@ -2762,14 +2765,71 @@ textarea.form-control {
   z-index: 1000;
   width: 100%;
 }
+.slide__icon {
+  position: relative;
+  display: block;
+}
+.slide__icon img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  margin: 0 auto;
+  opacity: 0.5;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.slide__icon:nth-child(1) img {
+  opacity: 0.1;
+}
+.slide__icon:nth-child(3) img,
+.slide__icon:nth-child(4) img,
+.slide__icon:nth-child(6) img {
+  opacity: 0.2;
+}
+.slide__icon:nth-child(5) img {
+  opacity: 0.3;
+}
 
+.slide__icon img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+}
+.animate-img {
+  /* position: absolute;
+  right: 60px;
+  bottom: 117px; */
+  -webkit-animation: service_hexagon_2 25s infinite linear;
+  -moz-animation: service_hexagon_2 25s infinite linear;
+  -o-animation: service_hexagon_2 25s infinite linear;
+  animation: service_hexagon_2 25s infinite linear;
+  animation-delay: 1s;
+}
 /* Navbar */
 .navbar {
   padding: 0;
   height: 90px;
   max-height: 90px;
-  background-color: rgb(255, 255, 255, 0.05);
+  background-color: #397abd24;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
   /*  dropdown-menu  */
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #397bbd42;
 }
 
 .navbar > .container,
@@ -2875,13 +2935,13 @@ textarea.form-control {
   width: 0;
   bottom: 0;
   height: 2px;
-  background-color: #397abd;
+  background-color: #fff;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 
 .navbar .nav__item .nav__item-link:hover {
-  color: #397abd;
+  color: #fff;
 }
 
 .navbar .nav__item .nav__item-link.active:before,
@@ -2946,7 +3006,7 @@ textarea.form-control {
   width: 10px;
   height: 2px;
   opacity: 0;
-  background-color: #397abd;
+  background-color: #fff;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   -webkit-transition: all 0.3s linear;
@@ -2954,7 +3014,7 @@ textarea.form-control {
 }
 
 .navbar .dropdown-menu .nav__item .nav__item-link:hover {
-  color: #397abd;
+  color: #fff;
   padding-left: 5px;
   transition: all 0.5s ease-in-out;
 }
@@ -3322,7 +3382,7 @@ textarea.form-control {
   border-bottom: 0 !important;
   height: 142px !important;
   max-height: 142px !important;
-  background-color: #ffffff !important;
+  background-color: #397bbdc3 !important;
   -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
   -webkit-animation: translateHeader 0.8s;
@@ -3348,12 +3408,12 @@ textarea.form-control {
 }
 
 .is-sticky .nav__item .nav__item-link {
-  color: #1b1a1a;
+  color: #fff;
   line-height: 70px !important;
 }
 
 .is-sticky .nav__item .nav__item-link:before {
-  background-color: #397abd !important;
+  background-color: #fff !important;
 }
 
 .is-sticky .logo-light {
@@ -5034,6 +5094,7 @@ textarea.form-control {
   font-size: 18px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+  height: 45px;
 }
 
 .feature-item .feature__desc {
