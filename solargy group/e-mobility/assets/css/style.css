@@ -1179,7 +1179,7 @@ select {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.bg-overlay-primary-gradient:before {
+/* .bg-overlay-primary-gradient:before {
   background-color: transparent;
   background-image: -webkit-gradient(
     linear,
@@ -1193,7 +1193,7 @@ select {
     #397abdd9 16%,
     rgba(0, 0, 0, 0.3) 95%
   );
-}
+} */
 
 /*-------------------------
    Typography
@@ -1382,7 +1382,7 @@ h6 {
 
 .page-title-layout1 {
   padding-top: 175px;
-  padding-bottom: 175px;
+  /* padding-bottom: 175px; */
 }
 
 .page-title-layout1 [class*="col-"] {
@@ -2329,8 +2329,9 @@ textarea.form-control {
   justify-content: center;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 1px solid #eaeaea;
+  box-shadow: 0 0 2px #eaeaea;
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
@@ -3014,7 +3015,7 @@ textarea.form-control {
 }
 
 .navbar .dropdown-menu .nav__item .nav__item-link:hover {
-  color: #fff;
+  color: #000;
   padding-left: 5px;
   transition: all 0.5s ease-in-out;
 }
@@ -4185,7 +4186,7 @@ textarea.form-control {
     Footer
 --------------------------*/
 .footer {
-  background-color: #161616;
+  background-color: #397abd;
 }
 
 .footer .social-icons a {
@@ -4220,8 +4221,8 @@ textarea.form-control {
 }
 
 .footer-primary {
-  padding-top: 120px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 0px;
 }
 
 .footer-widget {
@@ -4230,23 +4231,27 @@ textarea.form-control {
 
 .footer-widget-title {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: capitalize;
   margin-bottom: 33px;
+  text-align: left;
+  font-weight: 600;
 }
 
 .footer-widget-nav li a,
 .copyright__nav li a {
   display: block;
   position: relative;
-  color: #9b9b9b;
-  font-size: 14px;
+  color: #fff;
+  font-size: 16px;
   margin-bottom: 11px;
+  opacity: 0.8;
 }
 
 .footer-widget-nav li a:hover,
 .copyright__nav li a:hover {
   color: #ffffff;
+  opacity: 1;
 }
 
 .copyright__nav li a {
@@ -4289,9 +4294,10 @@ textarea.form-control {
 }
 
 .footer-copyrights {
-  background-color: #121212;
-  padding-top: 42px;
-  padding-bottom: 42px;
+  background-color: #397abd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .footer-copyrights p {
@@ -4687,6 +4693,21 @@ textarea.form-control {
 
 .carousel-arrows-light .slick-arrow:hover {
   color: #397abd;
+}
+.carousel-arrows-main .slick-arrow {
+  color: #fff !important;
+  /* width: 5px; */
+}
+.carousel-arrows-main .slick-next::before {
+  /* content: "\2192"; */
+  /* width: 5px; */
+  right: -30px;
+  position: absolute;
+}
+.carousel-arrows-main .slick-prev::before {
+  /* content: "\2190"; */
+  left: -30px;
+  position: absolute;
 }
 
 .slick-dots {
@@ -5775,6 +5796,11 @@ textarea.form-control {
 .portfolio-filter li {
   margin-bottom: 20px;
   margin-right: 30px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .portfolio-filter li:last-child {
@@ -5783,7 +5809,7 @@ textarea.form-control {
 
 .portfolio-filter li a {
   position: relative;
-  color: #282828;
+  color: #28282885;
   font-size: 14px;
   font-weight: 700;
   line-height: 1;
@@ -7240,12 +7266,14 @@ textarea.form-control {
 }
 
 .contact-info-box .contact__info-list li {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.9;
+  color: #fff;
+  opacity: 0.9;
 }
 
 .contact-info-box .contact__info-list li a {
-  color: #9b9b9b;
+  color: #fff;
 }
 
 .contact-info-layout2 .contact-info-box .contact__info-box-icon {
@@ -7360,13 +7388,16 @@ textarea.form-control {
   flex: 0 0 32%;
   max-width: 32%;
   padding-bottom: 40px;
-  background-color: #e4f2e2;
+  background-color: #397abd;
   border-radius: 10px;
   padding: 50px;
 }
 
 .contact-panel .contact-info-box .contact__info-box-title {
   margin-bottom: 11px;
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 1px solid;
 }
 
 .contact-panel .contact__panel-form {
@@ -9390,4 +9421,26 @@ textarea.form-control {
   background: #397abd;
 }
 
-/* solargy group  */
+/* Breadcrumb  */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #397abd;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #397abd;
+  text-decoration: underline;
+}
