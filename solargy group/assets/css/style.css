@@ -226,22 +226,24 @@ a:focus {
     line-height: 1em;
 }
 
-.block-title p span {
+.block-title h2 span {
     padding-bottom: 7px;
     border-bottom: 2px solid var(--thm-base);
+    
 }
 
 .block-title h2,
 .block-title h3 {
     margin: 0;
     color: var(--thm-black);
-    font-size: 36px;
-    /* font-weight: bold; */
+    font-size: 25px;
+     font-weight: bold; 
     font-family: var(--heading-font);
+
 }
 
 .block-title h2 {
-    font-size: 48px;
+    font-size: 25px;
 }
 
 .block-title p + h2,
@@ -259,7 +261,9 @@ a:focus {
 .block-title h3 + .block-title__text {
     margin-top: 14px;
 }
-
+.border-bottom-1 {
+    border-bottom: 1px solid rgb(0,0,0,0.1);
+}
 /* Cursor*/
 
 .cursor {
@@ -7103,7 +7107,7 @@ height: 210px;
     background-color: #fff;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.08);
 }
-.story-one__single:before{
+/* .story-one__single:before{
     position: absolute;
     content: '';
     background: #d4d7de;
@@ -7133,7 +7137,7 @@ height: 210px;
 .story-one__single.active:before,
 .story-one__single.active:after{
     opacity: 0 !important;
-}
+} */
 .story-one__single p {
     white-space: pre-line;
 }
@@ -10977,7 +10981,7 @@ figure{
     font-weight: 500;
     font-family: 'Cairo', sans-serif;
     position: relative;
-    bottom: 10px;
+    bottom: 0px;
 }
 
 .case-section .title-inner .more-link a i {
@@ -11220,19 +11224,41 @@ figure{
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
+    
 }
 
 .brand-one.alternat-2 .brand-one__box img:hover{
     opacity: 0.5;
+    
+}
+.owl-theme .owl-nav.disabled + .owl-dots{
+    margin-top: 30px !important;
 }
 
 .brand-one.alternat-2{
-    padding: 50px 0px;
+    padding: 35px 0px;
    box-shadow: 0 0 5px #fff;
    background-color: #000;
+   height: 135px;
+   overflow-y: hidden;
+   /* transition: all 10.5s ease-in-out ; */
 }
-
-
+@media screen and (max-width:767px){
+    .brand-one.alternat-2{
+        padding: 25px 0px;
+      
+       height: 145px;
+       overflow-y: hidden;
+       /* transition: all 10.5s ease-in-out ; */
+    }
+}
+.company-img{
+    display: none !important;
+    transition: all 10.5s ease-in-out ;
+}
+.brand-one__box:hover .company-img{
+    display: block !important;
+}
 /** testimonial-section **/
 
 .testimonial-section{
@@ -13716,7 +13742,7 @@ footer a.text-secondary:focus,footer a.text-secondary:hover{
 ::-webkit-scrollbar-thumb:hover {
   background: #000; 
 }
-.owl-carousel .owl-item{
+#events .owl-carousel .owl-item{
     padding-bottom: 70px;
 }
 /* .owl-item{
