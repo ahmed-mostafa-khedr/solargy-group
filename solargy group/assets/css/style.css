@@ -16,9 +16,10 @@
 font-family: 'Yesteryear', cursive;
 font-family: 'Yantramanav', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;900&family=Playfair+Display+SC:ital,wght@0,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,400;1,500;1,900&display=swap');
 :root {
-    --thm-font: "Yantramanav", sans-serif;
-    --heading-font: 'Playfair Display SC', serif;
+    --thm-font: 'Cairo', sans-serif;
+    --heading-font: 'Montserrat', sans-serif;
     --special-font: 'Cairo', sans-serif;
     --thm-base: #000000;
     --thm-base-rgb: 177, 15, 60;
@@ -30,7 +31,7 @@ html {
   }
 body {
     font-family: var(--thm-font);
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
     color: #646a7a;
     scroll-behavior: smooth;
@@ -44,7 +45,6 @@ h1,
 h2,
 h3,
 h4,
-
 h6 {
     font-family: var(--heading-font);
 }
@@ -228,7 +228,7 @@ a:focus {
 
 .block-title h2 span {
     padding-bottom: 7px;
-    border-bottom: 2px solid var(--thm-base);
+    border-bottom: 1px solid var(--thm-base);
     
 }
 
@@ -237,18 +237,18 @@ a:focus {
     margin: 0;
     color: var(--thm-black);
     font-size: 25px;
-     font-weight: bold; 
+     font-weight: 600; 
     font-family: var(--heading-font);
 
 }
 
 .block-title h2 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .block-title p + h2,
 .block-title p + h3 {
-    margin-top: 26px;
+    margin-top: 20px;
 }
 
 .block-title__text {
@@ -1040,7 +1040,7 @@ a:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #fff;
     padding: 24.5px 0;
@@ -1205,7 +1205,7 @@ a:focus {
 .footer-widget p {
     margin: 0;
     color: #9aa0af;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
     margin-top: 31px;
 }
@@ -1213,7 +1213,7 @@ a:focus {
 .footer-widget p a {
     color: #fff;
     font-family: var(--heading-font);
-    font-weight: 600;
+    font-weight: 500;
     transition: all 500ms ease;
 }
 
@@ -1256,7 +1256,7 @@ a:focus {
     align-items: center;
     text-align: center;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     font-family: var(--heading-font);
     top: 25px;
@@ -1455,8 +1455,8 @@ a:focus {
     border: none;
     outline: none;
     background-color: #252f49;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     color: #fff;
     border-radius: 4px;
     border-top-left-radius: 0;
@@ -1527,7 +1527,7 @@ a:focus {
 }
 
 .footer-widget__contact-list li span {
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     font-family: var(--heading-font);
     display: block;
@@ -8046,7 +8046,7 @@ height: 185px;
 .banner-section .content-box{
   position: relative;
   display: block;
-  max-width: 650px;
+  /* max-width: 650px; */
   text-align: left;
   z-index:5;
   width: 100%;
@@ -10119,19 +10119,22 @@ figure{
 
 .banner-section.style-two .content-box{
     position: relative;
-    max-width: 950px;
-    width: 100%;
+    /* max-width: 950px; */
+    width: 90%;
     margin: 0 auto;
+    /* padding-bottom: 10vh; */
     text-align: center;
 }
 
 .banner-section.style-two .content-box h1{
-    font-size: 60px;
-    line-height: 82px;
+    font-size: 45px;
+    line-height: 72px;
+    margin-top: -50px;
+    
 }
 
 .banner-section.style-two .content-box h1 span{
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .banner-section .content-box p{
@@ -10359,7 +10362,7 @@ figure{
 
 .about-style-two{
     position: relative;
-    padding: 90px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 .about-style-two .image-box{
@@ -10418,19 +10421,14 @@ figure{
     animation: service_hexagon_2 15s infinite linear;
 }
 .animate-img{
-    /* position: absolute;
-    right: 60px;
-    bottom: 117px; */
     -webkit-animation: service_hexagon_2 25s infinite linear;
     -moz-animation: service_hexagon_2 25s infinite linear;
     -o-animation: service_hexagon_2 25s infinite linear;
     animation: service_hexagon_2 25s infinite linear;
     animation-delay: 1s;
 }
+
 .animate-img2{
-    /* position: absolute;
-    right: 60px;
-    bottom: 117px; */
     -webkit-animation: service_hexagon_2 25s infinite linear;
     -moz-animation: service_hexagon_2 25s infinite linear;
     -o-animation: service_hexagon_2 25s infinite linear;
@@ -10439,9 +10437,6 @@ figure{
     
 }
 .animate-img3{
-    /* position: absolute;
-    right: 60px;
-    bottom: 117px; */
     -webkit-animation: service_hexagon_2 25s infinite linear;
     -moz-animation: service_hexagon_2 25s infinite linear;
     -o-animation: service_hexagon_2 25s infinite linear;
@@ -10450,9 +10445,6 @@ figure{
     
 }
 .animate-img4{
-    /* position: absolute;
-    right: 60px;
-    bottom: 117px; */
     -webkit-animation: service_hexagon_2 25s infinite linear;
     -moz-animation: service_hexagon_2 25s infinite linear;
     -o-animation: service_hexagon_2 25s infinite linear;
@@ -10461,15 +10453,26 @@ figure{
     
 }
 .animate-img5{
-    /* position: absolute;
-    right: 60px;
-    bottom: 117px; */
     -webkit-animation: service_hexagon_2 25s infinite linear;
     -moz-animation: service_hexagon_2 25s infinite linear;
     -o-animation: service_hexagon_2 25s infinite linear;
     animation: service_hexagon_2 25s infinite linear;
     animation-delay: 3.5s;
     
+}
+.brand-one__box:hover .animate-img ,.brand-one__box:hover .animate-img2,.brand-one__box:hover .animate-img3,.brand-one__box:hover .animate-img4,.brand-one__box:hover .animate-img5{
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+    animation-delay:0;
+}
+#brands .owl-carousel .owl-stage{
+    display: flex;
+    justify-content: center;
+}
+#brands .owl-carousel.owl-drag .owl-item {
+    width: 150px !important;
 }
 .about-style-two .image-box .image-content{
     position: absolute;
@@ -10953,7 +10956,7 @@ figure{
 
 .case-section{
     position: relative;
-    padding: 60px 0px 30px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 .case-section .owl-carousel .owl-dots{
@@ -11236,17 +11239,22 @@ figure{
 }
 
 .brand-one.alternat-2{
-    padding: 35px 0px;
+    padding: 10px 0px;
    box-shadow: 0 0 5px #fff;
-   background-color: #000;
-   height: 135px;
-   overflow-y: hidden;
+   /* background-color: #000; */
+   background: radial-gradient(110% 50% at bottom, transparent 50%, rgb(0,0,0) 51%);
+   /* background-image: url(../section-bg.png); */
+
+   height: 100px;
+   overflow-y: visible;
    /* transition: all 10.5s ease-in-out ; */
+   /* position: relative;
+   margin-top: -100px; */
 }
 @media screen and (max-width:767px){
     .brand-one.alternat-2{
-        padding: 25px 0px;
-      
+        padding: 15px 0px;
+      background: url(../section-bg.png);
        height: 145px;
        overflow-y: hidden;
        /* transition: all 10.5s ease-in-out ; */
