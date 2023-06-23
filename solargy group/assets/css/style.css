@@ -3139,7 +3139,7 @@ textarea:focus{
     background-color: #fff;
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.08);
     transition: 500ms;
-height: 210px;
+height: 185px;
 }
 
 .blog-two__single:hover .blog-two__content {
@@ -7089,8 +7089,8 @@ height: 210px;
 --------------------------------------------------------------*/
 
 .story-one {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px; */
+    padding-bottom: 30px;
     /* background-color: #f1f3f5; */
     /* margin-bottom: 100px; */
 }
@@ -7188,8 +7188,8 @@ height: 210px;
 --------------------------------------------------------------*/
 
 .about-one {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .about-one__image {
@@ -9407,7 +9407,7 @@ figure{
 
 .funfact-section{
     position: relative;
-    padding: 0 0 120px 0px;
+    padding: 0 0 30px 0px;
 }
 
 .counter-block-one .count-outer{
@@ -10359,7 +10359,7 @@ figure{
 
 .about-style-two{
     position: relative;
-    padding: 120px 0px 0px 0px;
+    padding: 90px 0px 0px 0px;
 }
 
 .about-style-two .image-box{
@@ -10953,7 +10953,7 @@ figure{
 
 .case-section{
     position: relative;
-    padding: 60px 0px 60px 0px;
+    padding: 60px 0px 30px 0px;
 }
 
 .case-section .owl-carousel .owl-dots{
