@@ -106,9 +106,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    min-height: 650px;
   }
   .award-one__image {
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
   }
   .award-one__content h3 {
     font-size: 19px;

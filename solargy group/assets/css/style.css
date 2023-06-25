@@ -107,11 +107,11 @@ a:focus {
     outline: none;
 }
 .carousel__dot-one .owl-dots .owl-dot span {
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
     background-color: #c6ccd2;
     margin: 0 7.5px;
-    border-radius: 0;
+    border-radius: 50%;
     transition: 500ms;
 }
 .carousel__dot-one .owl-dots .owl-dot.active span,
@@ -6920,7 +6920,13 @@ height: 165px;
     align-items: center;
     padding: 50px 40px;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
-    height:260px;
+   
+}
+@media screen and (min-width:1100px) {
+    .award-one__single {
+       
+        height:260px;
+    }
 }
 
 .award-one__image-inner {
@@ -7461,7 +7467,7 @@ height: 165px;
 .company-values__list li {
     position: relative;
     padding-left: 30px;
-    font-size: 17px;
+    font-size: 16px;
     color: #646a7a;
 }
 .company-values__list li + li {
@@ -7473,7 +7479,7 @@ height: 165px;
     position: absolute;
     top: 13px;
     left: 0;
-    font-size: 17px;
+    font-size: 16px;
     color: #9aa0af;
     transform: translateY(-50%);
 }
@@ -10103,6 +10109,7 @@ figure{
 .banner-section.style-two .banner-carousel-2 .slide-item{
     position: relative;
     padding: 335px 0px 240px 0px;
+    height: 100vh;
 }
 
 .banner-section.style-two .banner-carousel-2 .slide-item:before{
@@ -11237,6 +11244,11 @@ figure{
 }
 .owl-theme .owl-nav.disabled + .owl-dots{
     margin-top: 30px !important;
+}
+.award-one .owl-theme .owl-nav.disabled + .owl-dots{
+    margin-top: -30px !important;
+    z-index: 100000;
+    position: relative;
 }
 
 .brand-one.alternat-2{
