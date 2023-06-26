@@ -11252,13 +11252,16 @@ figure{
 }
 
 .brand-one.alternat-2{
-    padding: 30px 0px;
+    padding: 25px 0px;
    box-shadow: 0 0 5px #fff;
    /* background-color: #000; */
    /* background: radial-gradient(105% 50% at bottom, transparent 50%, rgb(0,0,0) 51%); */
-   background-image: url(../section-bg.png);
-
-   height: 120px;
+   /* background-image: url(../section-bg.png);
+background-repeat: no-repeat;
+background-size: cover; */
+background-image: linear-gradient(to bottom, rgb(0,0,0) , rgb(0,0,0,0.8));
+box-shadow: 0 0 5px #fff;
+   height: 110px;
    overflow-y: visible;
    /* transition: all 10.5s ease-in-out ; */
    /* position: relative;
