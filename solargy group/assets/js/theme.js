@@ -336,7 +336,7 @@
       }
     }
     if ($(".stricked-menu").length) {
-      var headerScrollPos = 180;
+      var headerScrollPos = 0;
       var stricky = $(".stricked-menu");
       var y = $(window).scrollTop();
       var speed = 0.05;

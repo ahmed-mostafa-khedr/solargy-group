@@ -817,7 +817,7 @@ a:focus {
     left: 0;
     width: 100%;
     z-index: 91;
-    transform: translateY(-130%);
+    transform: translateY(0%);
     transition: transform 500ms cubic-bezier(0, 0, 0.2, 1);
 }
 
@@ -5665,8 +5665,8 @@ height: 165px;
 --------------------------------------------------------------*/
 
 .career-job {
-    padding-top: 0;
-    padding-bottom: 90px;
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
 
 .career-job__main-top {
@@ -6918,22 +6918,28 @@ height: 165px;
 .award-one__single {
     display: flex;
     align-items: center;
-    padding: 50px 40px;
+    padding: 10px 10px;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+    
    
 }
 @media screen and (min-width:1100px) {
     .award-one__single {
-       /* width: 100%; */
-        height:260px;
+        height:65vh;
     }
 }
 
 .award-one__image-inner {
     margin-right: 40px;
+    margin-bottom: 40px;
     width: 160px;
 }
-
+.award-one__single{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .award-one__content h3 {
     margin: 0;
     font-size: 22px;
@@ -7824,9 +7830,9 @@ height: 165px;
     border: 6px solid #fff;
     background-image: linear-gradient(
         0deg,
-        #071230 0%,
+        #000 0%,
         rgba(255, 255, 255, 0) 76%,
-        #071230 100%
+        rgb(0,0,0,0) 100%
     );
 }
 .team-three__social {
@@ -10000,7 +10006,7 @@ figure{
 }
 
 .header-style-two .header-one.stricky-fixed{
-    background: var(--thm-black);
+    background: rgb(0,0,0,0.7);
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
@@ -10109,7 +10115,7 @@ figure{
 .banner-section.style-two .banner-carousel-2 .slide-item{
     position: relative;
     padding: 335px 0px 240px 0px;
-    height: 100vh;
+    height: 116.6vh;
 }
 
 .banner-section.style-two .banner-carousel-2 .slide-item:before{
@@ -10433,9 +10439,9 @@ figure{
     -moz-animation: service_hexagon_2 25s infinite linear;
     -o-animation: service_hexagon_2 25s infinite linear;
     animation: service_hexagon_2 25s infinite linear;
-    animation-delay: 1s;
+    animation-delay: 0s;
 }
-
+/* 
 .animate-img2{
     -webkit-animation: service_hexagon_2 25s infinite linear;
     -moz-animation: service_hexagon_2 25s infinite linear;
@@ -10467,8 +10473,8 @@ figure{
     animation: service_hexagon_2 25s infinite linear;
     animation-delay: 3.5s;
     
-}
-.brand-one__box:hover .animate-img ,.brand-one__box:hover .animate-img2,.brand-one__box:hover .animate-img3,.brand-one__box:hover .animate-img4,.brand-one__box:hover .animate-img5{
+} */
+.item:hover .brand-one__box .animate-img {
     -webkit-animation: none;
     -moz-animation: none;
     -o-animation: none;
@@ -11020,6 +11026,7 @@ figure{
 }
 
 .team-three.alternat-2{
+
     position: relative;
     padding-top: 120px;
     padding-bottom: 0px;
@@ -11224,7 +11231,7 @@ figure{
 }
 
 .brand-one.alternat-2 .brand-one__box img {
-    opacity: 1;
+    opacity: 0.7;
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
@@ -11238,8 +11245,8 @@ figure{
     
 }
 
-.brand-one.alternat-2 .brand-one__box img:hover{
-    opacity: 0.5;
+.brand-one.alternat-2 .brand-one__box:hover img{
+    opacity: 1;
     
 }
 .owl-theme .owl-nav.disabled + .owl-dots{
@@ -11252,15 +11259,19 @@ figure{
 }
 
 .brand-one.alternat-2{
+    position: relative;
+    z-index: 10;
+    margin-top: -20vh;
     padding: 25px 0px;
-   box-shadow: 0 0 5px #fff;
+   /* box-shadow: 0 0 5px #fff; */
    /* background-color: #000; */
    /* background: radial-gradient(105% 50% at bottom, transparent 50%, rgb(0,0,0) 51%); */
    /* background-image: url(../section-bg.png);
 background-repeat: no-repeat;
 background-size: cover; */
-background-image: linear-gradient(to bottom, rgb(0,0,0) , rgb(0,0,0,0.8));
-box-shadow: 0 0 5px #fff;
+
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, #000000 100%);
+/* box-shadow: 0 0 5px #fff; */
    height: 110px;
    overflow-y: visible;
    /* transition: all 10.5s ease-in-out ; */
@@ -11279,6 +11290,7 @@ box-shadow: 0 0 5px #fff;
 .company-img{
     display: none !important;
     transition: all 10.5s ease-in-out ;
+    opacity: 1;
 }
 .brand-one__box:hover .company-img{
     display: block !important;
