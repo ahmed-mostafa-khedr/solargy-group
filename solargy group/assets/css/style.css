@@ -10181,7 +10181,7 @@ figure{
 .banner-section.style-two .content-box h1{
     font-size: 45px;
     line-height: 72px;
-    margin-top: -50px;
+    margin-top: -14%;
     
 }
 
@@ -10239,8 +10239,8 @@ figure{
 
 .banner-section.style-two .owl-nav{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 35%;
+    transform: translateY(-35%);
     width: 100%;
 }
 
