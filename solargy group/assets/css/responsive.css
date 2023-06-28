@@ -903,7 +903,7 @@
 
   .banner-section.style-two .banner-carousel-2 .slide-item {
     padding: 250px 0px 150px 0px;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .workin-area-two .single-item .inner-box {
@@ -1105,7 +1105,7 @@
     padding: 70px 30px;
   }
   .banner-section.style-two .banner-carousel-2 .slide-item:before {
-    height: 100vh;
+    /* height: 100vh; */
   }
   .banner-section.style-two .owl-nav {
     /* display: none; */
