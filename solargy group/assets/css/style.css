@@ -35,8 +35,11 @@ body {
     line-height: 26px;
     color: #646a7a;
     scroll-behavior: smooth;
+    background-color: #000;
 }
-
+.text-secondary{
+    color: #ffffffa1 !important;
+}
 [dir="rtl"] .thm__owl-carousel {
     direction: ltr;
 }
@@ -228,14 +231,14 @@ a:focus {
 
 .block-title h2 span {
     padding-bottom: 7px;
-    border-bottom: 1px solid var(--thm-base);
+    border-bottom: 1px solid #fff;
     
 }
 
 .block-title h2,
 .block-title h3 {
     margin: 0;
-    color: var(--thm-black);
+    color: #fff;
     font-size: 25px;
      font-weight: 600; 
     font-family: var(--heading-font);
@@ -808,7 +811,7 @@ a:focus {
 --------------------------------------------------------------*/
 
 .header-one {
-    background-color: #fff;
+    background-color: #000;
     position: relative;
     box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.05);
     z-index: 11;
@@ -941,7 +944,7 @@ a:focus {
     left: calc(50% - 3px);
     width: 6px;
     height: 6px;
-    background-color: var(--thm-base);
+    background-color: #fff;
     transform: translateY(50%) scale(1, 0);
     transition: transform 0.4s ease;
     transform-origin: left center;
@@ -956,7 +959,7 @@ a:focus {
 .header-one__menu > ul > li > a {
     font-size: 16px;
     font-weight: 500;
-    color: var(--thm-black);
+    color: #fff;
     font-family: 'Cairo', sans-serif;
     transition: all 500ms ease;
     display: flex;
@@ -964,7 +967,7 @@ a:focus {
 
 .header-one__menu > ul > li.current > a,
 .header-one__menu > ul > li:hover > a {
-    color: var(--thm-base);
+    color: #ccc;
 }
 
 .header-one__menu > ul > li ul {
@@ -1874,7 +1877,7 @@ textarea:focus{
 .contact-one__info-list li span {
     font-size: 15px;
     font-weight: 600;
-    color: #132728;
+    color: #fff;
     text-transform: uppercase;
     display: block;
     line-height: 1em;
@@ -1893,11 +1896,11 @@ textarea:focus{
     border-radius: 50%;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
-    border: 1px solid #e4e7ee;
+    border: 1px solid #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #9aa0af;
+    color: #fff;
     font-size: 20px;
     position: absolute;
     top: 0;
@@ -1906,9 +1909,9 @@ textarea:focus{
 }
 
 .contact-one__info-list li:hover > i {
-    background-color: var(--thm-base);
-    border-color: var(--thm-base);
-    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
     border-radius: 0;
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -1927,20 +1930,20 @@ textarea:focus{
 .contact-one__social > a {
     width: 54px;
     height: 54px;
-    border: 1px solid #e4e7ee;
+    border: 1px solid #fff;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 17px;
-    color: #9aa0af;
+    color: #fff;
     transition: all 500ms ease;
 }
 
 .contact-one__social > a:hover {
-    border-color: var(--thm-base);
-    background-color: var(--thm-base);
-    color: #fff;
+    border-color: #fff;
+    background-color: #fff;
+    color: #000;
     border-radius: 50%;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
@@ -8796,7 +8799,7 @@ height: 165px;
 }
 
 .about-section .block-title h2 span{
-    color: var(--thm-base);
+    color: #fff;
 }
 
 ul{
@@ -11082,7 +11085,7 @@ left:0 !important;
 .case-section .title-inner .more-link a {
     display: flex;
     align-items: center;
-    color: var(--thm-black);
+    color:#fff;
     font-size: 17px;
     font-weight: 500;
     font-family: 'Cairo', sans-serif;
@@ -11093,14 +11096,14 @@ left:0 !important;
 .case-section .title-inner .more-link a i {
     width: 44px;
     height: 44px;
-    background-color: var(--thm-base);
+    background-color: #fff;
     border-radius: 50%;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     display: flex;
     text-align: center;
     justify-content: center;
-    color: #fff;
+    color: #000;
     font-size: 19px;
     margin-left: 20px;
     align-items: center;
@@ -11111,7 +11114,7 @@ left:0 !important;
     border-radius: 0%;
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
-    background-color: var(--thm-black);
+    background-color: #fff;
 }
 
 .team-three.alternat-2{
@@ -13902,19 +13905,20 @@ footer a.text-secondary:focus,footer a.text-secondary:hover{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #fff; 
+  /* box-shadow: inset 0 0 5px #000;  */
   /* border-radius: 10px; */
+  background: #fff; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #000; 
-  border-radius: 5px;
+  border-radius: 1px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #000; 
+  background: #fff; 
 }
 #events .owl-carousel .owl-item{
     padding-bottom: 70px;
@@ -13952,7 +13956,7 @@ footer a.text-secondary:focus,footer a.text-secondary:hover{
 
 .card {
     border: none;
-    background: #ffffff;
+    background: #000;
 }
 
 .image-flip:hover .backside,
