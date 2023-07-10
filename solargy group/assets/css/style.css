@@ -11761,9 +11761,9 @@ background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, #000000 100%);
 
 .footer-style-two{
     position: relative;
-    background: url(../images/banner/b1.jpg);
+    background: url(../images/banner/Emobility.png);
     background-attachment: fixed;
-    background-position: top;
+    background-position: center center;
 }
 .footer-overlay{
     background-color: rgb(0,0,0,0.6);
