@@ -907,8 +907,9 @@ a:focus {
     display: none;
     position: relative;
     z-index: 10;
-    color: var(--thm-black);
+    color: #fff;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .header-style-two .side-menu__toggler{
