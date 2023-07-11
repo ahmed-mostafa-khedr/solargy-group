@@ -1727,7 +1727,7 @@ a:focus {
     width: 100%;
     height: 56px;
     border: 1px solid #e4e7ee;
-    color: #ffffffa1;
+    color: #000;
     font-size: 17px;
     padding-left: 20px;
     position: relative;
@@ -1742,27 +1742,31 @@ textarea:focus{
 }
 
 .contact-one__form ::-webkit-input-placeholder {
-    color: #ffffffa1;
+    color: #979797;
     opacity: 1;
 }
 
 .contact-one__form ::-moz-placeholder {
-    color: #ffffffa1;
+    color: #979797;
     opacity: 1;
 }
 
 .contact-one__form :-ms-input-placeholder {
-    color: #ffffffa1;
+    color: #979797;
     opacity: 1;
 }
-
+#email-error,#name-error,#subject-error,#message-error{
+    color: #e60000;
+    text-decoration: underline;
+    opacity: 0.8;
+}
 .contact-one__form ::-ms-input-placeholder {
-    color: #ffffffa1;
+    color: #979797;
     opacity: 1;
 }
 
 .contact-one__form ::placeholder {
-    color: #ffffffa1;
+    color: #979797;
     opacity: 1;
 }
 
