@@ -2793,7 +2793,7 @@ textarea:focus{
     padding-bottom: 50px;
 }
 
-.blog-one__main::before {
+/* .blog-one__main::before {
     content: "";
     position: absolute;
     top: 0;
@@ -2802,7 +2802,7 @@ textarea:focus{
     height: 100%;
     background-image: url(../images/shapes/blog-sidebar-line-1.png);
     background-repeat: repeat-y;
-}
+} */
 
 .blog-one__single {
     margin-bottom: 50px;
