@@ -1142,6 +1142,18 @@ select {
   position: relative;
   z-index: 1;
 }
+.bg-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(30, 66, 102, 0.39);
+}
 
 .background-size-auto {
   background-size: auto !important;
@@ -1165,7 +1177,7 @@ select {
 }
 
 .bg-overlay-2:before {
-  background-color: rgba(27, 26, 26, 0.25);
+  background-color: rgba(30, 66, 102, 0.39);
 }
 
 .bg-overlay-3:before {
@@ -3390,8 +3402,8 @@ textarea.form-control {
   width: 100%;
   z-index: 1040;
   border-bottom: 0 !important;
-  height: 90px !important;
-  max-height: 90px !important;
+  height: 80px !important;
+  max-height: 80px !important;
   background-color: #397abd !important;
   -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
@@ -3638,13 +3650,13 @@ textarea.form-control {
     color: #ffffff;
   }
   .header-layout3 .navbar {
-    height: 90px;
+    height: 80px;
     /* padding-top: 58px; */
-    max-height: 90px;
+    max-height: 80px;
   }
   .header-layout3 .navbar > .container,
   .header-layout3 .navbar .container-fluid {
-    height: 90px;
+    height: 80px;
   }
   /* .header-layout3 .navbar .navbar-nav {
     margin-top: 50px;
@@ -4196,7 +4208,13 @@ textarea.form-control {
     Footer
 --------------------------*/
 .footer {
-  background-color: #397abd;
+  position: relative;
+
+  background: url(../images/sliders/2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .footer .social-icons a {
@@ -4227,7 +4245,7 @@ textarea.form-control {
 }
 
 .footer .btn__location:hover {
-  color: #397abd;
+  color: #000;
 }
 
 .footer-primary {
@@ -4282,12 +4300,12 @@ textarea.form-control {
 }
 
 .footer-widget-about .btn {
-  color: #397abd;
+  color: #000;
 }
 
 .footer-widget-about .btn .icon-arrow-right {
   color: #ffffff;
-  background-color: #397abd;
+  background-color: #000;
 }
 
 .footer-widget-about .btn:hover {
@@ -4304,7 +4322,7 @@ textarea.form-control {
 }
 
 .footer-copyrights {
-  background-color: #397abd;
+  /* background-color: #397abd; */
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -9620,4 +9638,13 @@ ul.breadcrumb li a:hover {
 .contact-panel .nice-select:after {
   border-bottom: 2px solid #000;
   border-right: 2px solid #000;
+}
+.footer-overlay {
+  background-color: rgb(30 66 102 / 39%);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  top: 0;
+  z-index: 0;
 }
