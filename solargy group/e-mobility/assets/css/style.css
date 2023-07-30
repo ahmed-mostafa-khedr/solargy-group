@@ -5778,9 +5778,11 @@ textarea.form-control {
 
 .portfolio-item .portfolio__cat a {
   position: relative;
-  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   color: #397abd;
   padding-right: 7px;
+  font-weight: 600;
 }
 
 .portfolio-item .portfolio__cat a:hover {
@@ -5803,7 +5805,7 @@ textarea.form-control {
 
 .portfolio-item .portfolio__title {
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 11px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -5813,7 +5815,7 @@ textarea.form-control {
   white-space: normal;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 .portfolio-item .portfolio__title a {
@@ -5853,13 +5855,14 @@ textarea.form-control {
 
 .portfolio-filter li a {
   position: relative;
-  color: #28282885;
-  font-size: 14px;
-  font-weight: 700;
+  color: #fff;
+  font-size: 17px;
+  /* font-weight: 700; */
   line-height: 1;
   text-transform: capitalize;
   display: block;
   padding-bottom: 4px;
+  opacity: 0.8;
 }
 
 .portfolio-filter li a:after {
@@ -5869,19 +5872,21 @@ textarea.form-control {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #397abd;
+  background-color: #fff;
   -webkit-transition: all 0.7s linear;
   transition: all 0.7s linear;
 }
 
 .portfolio-filter li a:hover,
 .portfolio-filter li a.active {
-  color: #397abd;
+  color: #fff;
+  opacity: 1;
 }
 
 .portfolio-filter li a:hover:after,
 .portfolio-filter li a.active:after {
   width: 100%;
+  color: #fff !important;
 }
 
 .mix {
@@ -9484,7 +9489,7 @@ ul.breadcrumb {
 }
 ul.breadcrumb li {
   display: inline;
-  font-size: 18px;
+  font-size: 17px;
 }
 ul.breadcrumb li + li:before {
   padding: 8px;
