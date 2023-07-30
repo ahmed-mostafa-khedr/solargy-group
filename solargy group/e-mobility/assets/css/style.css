@@ -2843,7 +2843,7 @@ textarea.form-control {
   padding: 0;
   height: 90px;
   max-height: 90px;
-  background-color: #397abd;
+  background-color: #397bbdad;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
   /*  dropdown-menu  */
 }
@@ -5755,11 +5755,20 @@ textarea.form-control {
 }
 
 .portfolio-item .portfolio__body {
+  background: rgb(255, 255, 255, 0.9);
+  padding: 25px 36px 36px 40px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 5px #ccc;
+  /* height: 235px; */
+}
+.slick-carousel .portfolio-item .portfolio__body {
   background: #dfdddd;
   padding: 25px 36px 36px 40px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   box-shadow: 0 0 5px #ccc;
+  height: 235px;
 }
 
 .portfolio-item:hover {
@@ -6060,7 +6069,7 @@ textarea.form-control {
 
 .portfolio-layout3 .portfolio-item .portfolio__body {
   position: absolute;
-  bottom: -166px;
+  bottom: -80px;
   left: 0;
 }
 
