@@ -40,9 +40,8 @@
       </div>
     </div>
 
-    <!-- =========================
-        Header
-    =========================== -->
+
+    <!-- =========================Header=========================== -->
     <header class="header header-layout3">
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
@@ -78,10 +77,21 @@
                 <a href="#solutions" class="nav__item-link">Solutions </a>
                 <button class="dropdown-toggle" data-toggle="dropdown"></button>
                 <ul class="dropdown-menu">
-                  <li class="nav__item"><a href="#." class="nav__item-link">EV Chargers</a></li>
-                  <li class="nav__item"><a href="#." class="nav__item-link">Smart Parking</a>
+                  <li class="nav__item has-dropdown">
+                    <a href="#." class="nav__item-link">EV Chargers <i class="fa-solid fa-caret-down pl-1"></i></a>
+                    <button class="dropdown-toggle" data-toggle="dropdown"></button>
+                    <ul class="dropdown-menu" style="left:120px;">
+                      <li class="nav__item"><a href="residential-solution.html" class="nav__item-link">Residential
+                        </a></li>
+                      <li class="nav__item"><a href="commercial-solution.html" class="nav__item-link">Commercial
+                        </a>
+                    </ul>
                   </li>
-                  <li class="nav__item"><a href="#." class="nav__item-link">Integrated Solutions</a>
+                  <li class="nav__item"><a href="smart-parking-protections.html" class="nav__item-link">Smart
+                      Parking</a>
+                  </li>
+                  <li class="nav__item"><a href="smart-parking-protections.html" class="nav__item-link">Integrated
+                      solutions</a>
                   </li>
                 </ul>
               </li>
@@ -110,9 +120,9 @@
                   <li class="nav__item">
                     <a href="news&events.html" class="nav__item-link">News & Events</a>
                   </li>
-                  <li class="nav__item">
+                  <!-- <li class="nav__item">
                     <a href="tips.html" class="nav__item-link">Tips</a>
-                  </li>
+                  </li> -->
                 </ul>
               </li>
               <li class="nav__item">
@@ -162,9 +172,32 @@
         </div>
       </nav>
     </header>
-    <!-- ============================
-        Slider
-    ============================== -->
+    <ul class="social-links"
+      style="position: fixed;    display: flex;flex-direction: column;
+  justify-content: space-between;
+
+top: 50%;
+transform: translateY(-50%);
+left: 0;z-index: 1;background-color: transparent;width:30px;text-align: center;padding:5px;border-radius: 0 10px 10px 0;">
+      <li>
+        <a rel="noopener" href="https://www.facebook.com/search/top?q=solargy%20e-mobility" target="_blank"><i
+            class="fab fa-facebook-f text-dark"></i>
+        </a>
+      </li>
+      <li>
+        <a rel="noopener" href="https://www.instagram.com/solargy.emobility" target="_blank">
+          <i class="fab fab fa-instagram text-dark"></i></a>
+      </li>
+      <li>
+        <a rel="noopener" href="https://www.instagram.com/solargygroup/?hl=en" target="_blank">
+          <img class="fab fab fa-threads text-dark" src="../assets/images/THREADS ICON.png" alt="THREADS ICON" /></a>
+      </li>
+      <li>
+        <a rel="noopener" href="https://www.linkedin.com/company/solargy-e-mobility/?originalSubdomain=eg"
+          target="_blank"><i class="fab fa-linkedin-in text-dark"></i></a>
+      </li>
+    </ul>
+    <!-- ============================Slider============================== -->
     <section class="slider " style="overflow: hidden;">
       <div class="slick-carousel carousel-arrows-light carousel-dots-light m-slides-0 "
         data-slick='{"slidesToShow": 1, "arrows": true, "dots": true,"autoplay":true ,"infinite":true,"speed": 3000,"fade": true,"cssEase": "ease"}'>
@@ -175,14 +208,7 @@
             <div class="row">
 
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto">
-                <div class="slide__body text-center">
 
-                  <h2 class="slide__title">Improving Solar Energy Products</h2>
-
-                  <p class="slide__desc text-center mx-auto">Specialized in the field of electromobility, EV chargers
-                    and smart parking solutions
-                  </p>
-                </div><!-- /.col-xl-77 -->
               </div>
             </div><!-- /.row -->
           </div><!-- /.container -->
@@ -194,22 +220,14 @@
             <div class="row">
 
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto">
-                <div class="slide__body text-center">
 
-                  <h2 class="slide__title">Empowering a sustainable future</h2>
-
-                  <p class="slide__desc text-center mx-auto">Leading provider of EV charging solutions, consultation &
-                    support
-                  </p>
-
-                  <!-- /.slide__body -->
-                </div><!-- /.col-xl-77 -->
               </div>
             </div><!-- /.row -->
           </div><!-- /.container -->
         </div>
       </div>
     </section>
+
     <ul class="breadcrumb mb-0">
       <div class="container">
         <li><a href="index.html">Home</a></li>
@@ -233,15 +251,16 @@
               </div><!-- /.portfolio-img -->
               <div class="portfolio__body">
                 <div class="portfolio__cat">
-                  <a href="#">Rolec wallpod 22KW </a>
+                  <a href="product-details.html">Rolec wallpod 22KW </a>
                 </div><!-- /.portfolio-cat -->
-                <p class="portfolio__title"><a href="#">Manufactured in the UK, the WALLPOD facelift is a low-cost
+                <p class="portfolio__title"><a href="product-details.html">Manufactured in the UK, the WALLPOD facelift
+                    is a low-cost
                     charging unit, designed to offer full
                     Mode 3 charging to every Electric Vehicle (EV/PHEV) on the market today, with the facility to
                     charge at 3 phase at 22kW speed.</a></p>
               </div><!-- /.portfolio__body -->
             </div><!-- /.portfolio-item -->
-          </div><!-- /.col-lg-4 -->
+          </div>
           <!-- portfolio item #2 -->
           <div class="col-sm-6 col-md-6 col-lg-4 mix filter-residential">
             <div class="portfolio-item">
@@ -250,9 +269,10 @@
               </div><!-- /.portfolio-img -->
               <div class="portfolio__body">
                 <div class="portfolio__cat">
-                  <a href="#">Rolec Zura</a>
+                  <a href="product-details.html">Rolec Zura</a>
                 </div><!-- /.portfolio-cat -->
-                <p class="portfolio__title"><a href="#">Versatile, sophisticated and packed with the most-wanted smart
+                <p class="portfolio__title"><a href="product-details.html">Versatile, sophisticated and packed with the
+                    most-wanted smart
                     features, along with never-
                     seen-before customizable aesthetics. ZURA has been designed for both homes and businesses,
                     providing up to 22kW superfast charging.</a></p>
@@ -267,9 +287,10 @@
               </div><!-- /.portfolio-img -->
               <div class="portfolio__body">
                 <div class="portfolio__cat">
-                  <a href="#">Circontrol eNext</a>
+                  <a href="product-details.html">Circontrol eNext</a>
                 </div><!-- /.portfolio-cat -->
-                <p class="portfolio__title"><a href="#">eNext has been designed to simplify the charging process. We
+                <p class="portfolio__title"><a href="product-details.html">eNext has been designed to simplify the
+                    charging process. We
                     developed an authorization
                     method via app that allows the user to start charging without any interaction with the charger.</a>
                 </p>
@@ -284,9 +305,10 @@
               </div><!-- /.portfolio-img -->
               <div class="portfolio__body">
                 <div class="portfolio__cat">
-                  <a href="#">Circontrol eHome</a>
+                  <a href="product-details.html">Circontrol eHome</a>
                 </div><!-- /.portfolio-cat -->
-                <p class="portfolio__title"><a href="#">Taking into account that a domestic charger is often considered
+                <p class="portfolio__title"><a href="product-details.html">Taking into account that a domestic charger
+                    is often considered
                     an appliance, an attractive
                     design and a small size are key attributes to be addressed.</a>
                 </p>
@@ -301,9 +323,10 @@
               </div><!-- /.portfolio-img -->
               <div class="portfolio__body">
                 <div class="portfolio__cat">
-                  <a href="#">Schneider Electric EVlink Home</a>
+                  <a href="product-details.html">Schneider Electric EVlink Home</a>
                 </div><!-- /.portfolio-cat -->
-                <p class="portfolio__title"><a href="#">The EVlink Wallbox is weatherproof and robust. It can therefore
+                <p class="portfolio__title"><a href="product-details.html">The EVlink Wallbox is weatherproof and
+                    robust. It can therefore
                     be used in tough environments:
                     in homes and on private properties (condominium, corporate car park, hotel...)</a>
                 </p>
@@ -336,12 +359,11 @@
               </figure>
             </div><!-- /.col-xl-3 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-widget footer-widget-nav">
-              <h6 class="footer-widget-title">Our Companyies </h6>
+              <h6 class="footer-widget-title">Our Companies </h6>
               <div class="footer-widget-content">
                 <nav>
                   <ul class="list-unstyled">
-                    <li><a href="../index.htm">Solargy Group </a></li>
-                    <li><a href="index.html">Solargy E-mobility</a></li>
+
                     <li><a href="#.">Solargy Renewable </a></li>
                     <li><a href="#">Solargy Trading</a></li>
                     <li><a href="#">Solargy Construction </a></li>
@@ -351,29 +373,39 @@
               </div><!-- /.footer-widget-content -->
             </div><!-- /.col-xl-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-widget footer-widget-nav">
-              <h6 class="footer-widget-title">About Us </h6>
+              <h6 class="footer-widget-title">Popular News </h6>
               <div class="footer-widget-content">
                 <nav>
-                  <ul class="list-unstyled">
-                    <li><a href="#.">About Us </a></li>
-                    <li><a href="#.">solutions</a></li>
-                    <li><a href="#.">Services</a></li>
-                    <li><a href="#.">News & Media </a></li>
-                    <li><a href="#.">Our Projects </a></li>
-                    <!-- <li><a href="contacs.html">Contacts </a></li> -->
-                  </ul>
+
+
+                  <div class="post mb-2">
+
+                    <a href="news-details.html" class="text-light mb-3">Go Green</a>
+
+                    <div class="d-flex align-items-center"> <i class="fa fa-calendar-alt mr-2"
+                        style="font-size: 16px;color: #fff;padding-bottom: 5px;"></i>
+                      <span class="post-date text-light">10/1/2023</span>
+                    </div>
+                  </div>
+                  <div class="post">
+                    <a href="news-details.html" class="text-light mb-3">Solargy Energy</a>
+                    <div class="d-flex align-items-center text-light"> <i class="fa fa-calendar-alt mr-2"
+                        style="font-size: 16px;color: #fff;padding-bottom: 5px;"></i>
+                      <span class="post-date">8/4/2022</span>
+                    </div>
+
+                  </div>
                 </nav>
               </div><!-- /.footer-widget-content -->
             </div><!-- /.col-xl-2 -->
             <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-widget footer-widget-nav">
-              <h6 class="footer-widget-title">Support </h6>
+              <h6 class="footer-widget-title">Our Support </h6>
               <div class="footer-widget-content">
                 <nav>
                   <ul class="list-unstyled">
-                    <li><a href="#">Terms & Conditions </a></li>
-                    <li><a href="#">Shipping Policy </a></li>
-                    <li><a href="#">Delivery Tips </a></li>
-                    <li><a href="#">Returns </a></li>
+                    <li><a href="contact-us.html">Contact Us </a></li>
+                    <li><a href="#.">Terms & Conditions </a></li>
+                    <li><a href="#."> Privacy Policy </a></li>
                   </ul>
                 </nav>
               </div><!-- /.footer-widget-content -->
