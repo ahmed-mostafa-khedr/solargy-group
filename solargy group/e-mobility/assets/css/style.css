@@ -1488,8 +1488,10 @@ h6 {
 
 .page-title-layout1 .pagetitle__heading,
 .page-title-layout2 .pagetitle__heading {
-  font-size: 75px;
+  font-size: 40px;
   color: #ffffff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
 }
 
 .page-title-layout1 .pagetitle__desc,
@@ -3006,7 +3008,7 @@ textarea.form-control {
 }
 
 .navbar .dropdown-menu .nav__item {
-  padding: 0 40px;
+  padding: 0 10px;
   margin-right: 0;
 }
 
@@ -3024,15 +3026,16 @@ textarea.form-control {
   content: "";
   position: absolute;
   top: 50%;
-  left: -20px;
-  width: 10px;
-  height: 2px;
+  left: -10px;
+  width: 5px;
+  height: 3px;
   opacity: 0;
-  background-color: #fff;
+  background-color: #397abd;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+  z-index: 11;
 }
 
 .navbar .dropdown-menu .nav__item .nav__item-link:hover {
@@ -3043,7 +3046,7 @@ textarea.form-control {
 
 .navbar .dropdown-menu .nav__item .nav__item-link:hover:after {
   opacity: 1;
-  left: -15px;
+  left: -10px;
 }
 
 .navbar .dropdown-menu .nav__item:last-child .nav__item-link {
@@ -3915,10 +3918,10 @@ textarea.form-control {
 @media (min-width: 992px) {
   .navbar .dropdown-menu {
     width: auto;
-    min-width: 235px;
+    /* min-width: 235px; */
     -webkit-box-shadow: 0px 2px 6px 0px rgba(40, 40, 40, 0.1);
     box-shadow: 0px 2px 6px 0px rgba(40, 40, 40, 0.1);
-    padding: 25px 0 23px;
+    padding: 15px 0 15px;
     border-radius: 0 0 6px 6px;
   }
   .navbar .dropdown-menu .nav__item .nav__item-link:before {
