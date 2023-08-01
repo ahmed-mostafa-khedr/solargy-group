@@ -14275,6 +14275,26 @@ footer a.text-secondary:focus,footer a.text-secondary:hover{
     .img-responsivee {
         width: inherit;
     }
-}
+    .career-job {
+        padding: 0 12px;
+    }
+    .company-values .block-title{
+        display: flex;
+    justify-content: center;
+    }
+    .social-links{
+        display: none !important;
+    }
+    .company-values__images img{
+        margin-bottom: 15px;
+        float: none !important;
+        padding: 0px 20px !important;
 
- 
+    }
+    #events{
+        padding-bottom: 0 !important;
+    }
+    #contact-us .block-title__text {
+        margin-top:-60px;
+    }
+}
