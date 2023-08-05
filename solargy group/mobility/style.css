@@ -617,3 +617,6 @@ body {
   position: relative;
   top: -11vh;
 }
+.post .e-con-inner .elementor-widget-image .elementor-widget-container {
+  height: 186px !important;
+}
