@@ -608,10 +608,10 @@ body {
     right: 20px;
   }
 }
-.dce-posts-wrapper article {
+#banner .dce-posts-wrapper article {
   height: 120vh;
 }
-.dce-posts-wrapper article video,
+#banner .dce-posts-wrapper article video,
 .dce-posts-wrapper article img {
   z-index: 1111;
   position: relative;
