@@ -395,7 +395,7 @@ body {
 .footer {
   position: relative;
 
-  background: url(../images/footer.png);
+  background: url(images/footer.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
