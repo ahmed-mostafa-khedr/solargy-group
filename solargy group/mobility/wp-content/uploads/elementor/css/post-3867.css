@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;900&family=Playfair+Display+SC:ital,wght@0,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,400;1,500;1,900&display=swap");
+
 .elementor-3867 .elementor-element.elementor-element-d03e41b {
   --display: flex;
   --flex-direction: row;
@@ -46,7 +49,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-86682f5 .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -88,7 +91,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-be4a941 .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -130,7 +133,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-7fe69e6 .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -172,7 +175,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-dec9c4a .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -239,7 +242,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-1bd3bf9 .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -281,7 +284,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-52a3fb9 .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -323,7 +326,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-714a357 .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -365,7 +368,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-dafff51 .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -407,7 +410,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-3ce5c8d .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -474,7 +477,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-f8a6abe .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -516,7 +519,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-217d7de .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -558,7 +561,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-6ed1b45 .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -600,7 +603,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-9bf6a25 .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -642,7 +645,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-ac7cf1e .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);
@@ -684,7 +687,7 @@
   margin-right: 10px;
 }
 .elementor-3867 .elementor-element.elementor-element-6c7970a .elementor-button {
-  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-family: "Cairo", Sans-serif;
   font-size: var(--e-global-typography-text-font-size);
   font-weight: var(--e-global-typography-text-font-weight);
   line-height: var(--e-global-typography-text-line-height);

@@ -1,4 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;900&family=Playfair+Display+SC:ital,wght@0,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,400;1,500;1,900&display=swap");
+:root {
+  --thm-font: "Cairo", sans-serif;
+  --heading-font: "Montserrat", sans-serif;
+  --special-font: "Cairo", sans-serif;
+  --thm-base: #000000;
+  --thm-base-rgb: 177, 15, 60;
+  --thm-black: #000000;
+  --thm-black-rgb: 7, 18, 48;
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
+  font-family: var(--thm-font) !important;
+  font-size: 17px !important;
+  line-height: 26px;
+  color: #ffffffa1;
+  /* scroll-behavior: smooth; */
+  background-color: #000;
   overflow-x: hidden !important;
 }
 /* preloader */
@@ -619,4 +639,27 @@ body {
 }
 .post .e-con-inner .elementor-widget-image .elementor-widget-container {
   height: 186px !important;
+}
+#scrollTopBtn {
+  border: none !important;
+  outline: none !important;
+  box-shadow: 0 0 2px #397abd;
+}
+#scrollTopBtn:focus,
+#scrollTopBtn:active {
+  border: none !important;
+  outline: none !important;
+}
+#scrollTopBtn:hover {
+  border: 1px solid #397abd !important;
+  background-color: #fff;
+}
+#scrollTopBtn:hover i {
+  color: #397abd !important;
+}
+.color-main {
+  color: #397abd !important;
+}
+.color-dark {
+  color: #000 !important;
 }

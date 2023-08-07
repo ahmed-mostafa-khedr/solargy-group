@@ -1,4 +1,7 @@
-﻿.elementor-17 .elementor-element.elementor-element-351069d {
+﻿@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;900&family=Playfair+Display+SC:ital,wght@0,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,400;1,500;1,900&display=swap");
+
+.elementor-17 .elementor-element.elementor-element-351069d {
 	--display: flex;
 	--flex-direction: row;
 	--container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
@@ -298,12 +301,12 @@
 
 /* Start custom CSS for shortcode, class: .elementor-element-cc3b09f */
 .elementor-17 .elementor-element.elementor-element-cc3b09f a.mega-menu-link {
-	font-family: "Montserrat", Sans-serif !important;
-	font-weight: 600 !important;
+	font-family: "Cairo", sans-serif !important;
+	font-weight:500 !important;
 }
 
 .elementor-17 .elementor-element.elementor-element-cc3b09f .mega-sub-menu a.mega-menu-link {
-	font-family: "Montserrat", Sans-serif !important;
+	font-family: "Cairo", sans-serif;
 	font-weight: 500 !important;
 }
 
