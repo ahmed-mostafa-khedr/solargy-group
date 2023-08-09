@@ -1,4 +1,7 @@
-﻿.elementor-14 .elementor-element.elementor-element-689512f {
+﻿@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;900&family=Playfair+Display+SC:ital,wght@0,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,400;1,500;1,900&display=swap");
+
+.elementor-14 .elementor-element.elementor-element-689512f {
   --display: flex;
   --flex-direction: column;
   --container-widget-width: 100%;
@@ -389,11 +392,11 @@ body.rtl .elementor-14 .elementor-element.elementor-element-7a9c58f {
 .elementor-14
   .elementor-element.elementor-element-3444d2d
   .elementor-heading-title {
-  color: var(--e-global-color-982e7a8);
-  font-family: var(--e-global-typography-7ef28f7-font-family), Sans-serif;
-  font-size: var(--e-global-typography-7ef28f7-font-size);
-  font-weight: var(--e-global-typography-7ef28f7-font-weight);
-  line-height: var(--e-global-typography-7ef28f7-line-height);
+  color: #000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.5rem;
   letter-spacing: var(--e-global-typography-7ef28f7-letter-spacing);
   word-spacing: var(--e-global-typography-7ef28f7-word-spacing);
 }
@@ -512,10 +515,10 @@ body.rtl .elementor-14 .elementor-element.elementor-element-7a9c58f {
   .elementor-element.elementor-element-e14a589
   .bdt-ep-hover-box-title
   a {
-  color: var(--e-global-color-982e7a8);
   font-family: "Montserrat", Sans-serif;
-  font-size: 20px;
-  font-weight: 600;
+  color: #000;
+  font-size: 21px;
+  font-weight: 600 !important;
 }
 .elementor-14
   .elementor-element.elementor-element-e14a589
@@ -2402,6 +2405,18 @@ body.rtl .elementor-14 .elementor-element.elementor-element-cb1ac2c {
 .elementor-14
   .elementor-element.elementor-element-59ba6c4
   .elementor-heading-title {
+  color: #000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 0.6em;
+  letter-spacing: -0.05em;
+  -webkit-text-stroke-width: 1px;
+  stroke-width: 1px;
+  -webkit-text-stroke-color: #397abd;
+  stroke: #397abd;
+}
+.elementor-14 .elementor-element.elementor-element-59ba6c4 #news {
   color: var(--e-global-color-1d5ed71);
   font-family: "Biryani", Sans-serif;
   font-size: 20vw;
@@ -2410,8 +2425,8 @@ body.rtl .elementor-14 .elementor-element.elementor-element-cb1ac2c {
   letter-spacing: -0.05em;
   -webkit-text-stroke-width: 1px;
   stroke-width: 1px;
-  -webkit-text-stroke-color: #397abd70;
-  stroke: #397abd70;
+  -webkit-text-stroke-color: #397abd;
+  stroke: #397abd;
 }
 body:not(.rtl) .elementor-14 .elementor-element.elementor-element-59ba6c4 {
   left: 0px;

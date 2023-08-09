@@ -66,7 +66,7 @@
 .elementor-1766
   .elementor-element.elementor-element-9efa4f7
   .elementor-heading-title {
-  color: var(--e-global-color-0a68f04);
+  color: #fff;
   font-family: var(--e-global-typography-635d215-font-family), Sans-serif;
   font-size: var(--e-global-typography-635d215-font-size);
   font-weight: var(--e-global-typography-635d215-font-weight);
@@ -699,15 +699,15 @@ body.rtl .elementor-1766 .elementor-element.elementor-element-a21edb4 {
   .elementor-element.elementor-element-9112020
   .elementor-heading-title {
   color: var(--e-global-color-1d5ed71);
-  font-family: "Biryani", Sans-serif;
+  font-family: "title", Sans-serif;
   font-size: 20vw;
   font-weight: 800;
   line-height: 1.3em;
   letter-spacing: -0.05em;
   -webkit-text-stroke-width: 1px;
   stroke-width: 1px;
-  -webkit-text-stroke-color: #397abd70;
-  stroke: #397abd70;
+  -webkit-text-stroke-color: #397abd;
+  stroke: #397abd;
 }
 body:not(.rtl) .elementor-1766 .elementor-element.elementor-element-9112020 {
   right: -40%;
@@ -864,15 +864,15 @@ body.rtl .elementor-1766 .elementor-element.elementor-element-9112020 {
   .elementor-element.elementor-element-6f6f557
   .elementor-heading-title {
   color: var(--e-global-color-1d5ed71);
-  font-family: "Biryani", Sans-serif;
-  font-size: 20vw;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18vw;
   font-weight: 800;
   line-height: 0.6em;
   letter-spacing: -0.05em;
   -webkit-text-stroke-width: 1px;
   stroke-width: 1px;
-  -webkit-text-stroke-color: #397abd70;
-  stroke: #397abd70;
+  -webkit-text-stroke-color: #397abd;
+  stroke: #397abd;
 }
 body:not(.rtl) .elementor-1766 .elementor-element.elementor-element-6f6f557 {
   left: 0px;
@@ -3848,7 +3848,7 @@ body.rtl .elementor-1766 .elementor-element.elementor-element-6f6f557 {
     --width: 55%;
   }
   .elementor-1766 .elementor-element.elementor-element-802b52c {
-    --width: 45%;
+    --width: 65%;
   }
   .elementor-1766 .elementor-element.elementor-element-04afc5f {
     --width: 55%;

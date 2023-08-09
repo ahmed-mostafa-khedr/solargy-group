@@ -3,7 +3,7 @@
 
 .elementor-885 .elementor-element.elementor-element-bda79d2 {
   --display: flex;
-  --min-height: 400px;
+  /* --min-height: 400px; */
   --flex-direction: column;
   --container-widget-width: 100%;
   --container-widget-height: initial;

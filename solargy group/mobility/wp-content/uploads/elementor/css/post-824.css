@@ -1,4 +1,7 @@
-﻿.elementor-824 .elementor-element.elementor-element-0f95f84 {
+﻿@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;900&family=Playfair+Display+SC:ital,wght@0,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200;1,400;1,500;1,900&display=swap");
+
+.elementor-824 .elementor-element.elementor-element-0f95f84 {
   --display: flex;
   --flex-direction: column;
   --container-widget-width: 100%;
@@ -121,9 +124,9 @@
   .elementor-element.elementor-element-2460caa
   .pt_plus_button
   .button-link-wrap {
-  font-family: var(--e-global-typography-b8e21c0-font-family), Sans-serif;
-  font-size: var(--e-global-typography-b8e21c0-font-size);
-  font-weight: var(--e-global-typography-b8e21c0-font-weight);
+  font-family: "Cairo", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
   text-transform: var(--e-global-typography-b8e21c0-text-transform);
   line-height: var(--e-global-typography-b8e21c0-line-height);
   letter-spacing: var(--e-global-typography-b8e21c0-letter-spacing);
